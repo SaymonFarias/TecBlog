@@ -1,0 +1,126 @@
+/*Limpar formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*****Layout*****/
+
+#cabecalho{
+    background-color: #4255ff;
+    padding: 15px ;
+    text-align: center;
+}
+
+#logo, menu{
+    padding: 12px;
+    
+}
+
+#area{
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.branco{
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2{
+    color: #4255ff;
+    }
+
+h3{
+        color: white;
+        background: #4255ff;
+        padding: 5px;
+}
+h4{
+    color: white;
+}
+
+    
+.data{
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+
+#posts {
+
+width: 660px;
+float: left;
+}
+
+#lateral{
+    width: 230px;
+    float: right;
+    
+}
+
+.conteudo-lateral{
+    background: white;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 8px;
+}
+
+
+
+.postagens{
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+    
+}
+
+#rodape{
+
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #4255ff;
+    
+ 
+}
+
+/****** Formatação do Menu******/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    Color: #4255ff;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    Color: white;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover{
+    color:#4255ff;
+    background:white;
+    text-decoration: none;
+}
